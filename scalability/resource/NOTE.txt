@@ -1,0 +1,21 @@
+Video
+https://www.youtube.com/watch?v=8KuO4r5CHjM.  HTTP
+https://www.youtube.com/watch?v=-W9F__D3oY4.  Scalability
+
+load balancer
+- factors
+ 	-- load  busiest
+	   -- but it is kind of complex to query who is most busy
+			-- to solve this either have identical file system in each server downside is we have Space(n) 
+			-- another solution to have diffencet host name for heavy resource
+			-- another solution is use DNS server each time gives different ip 
+			by round robin policy , 
+				---  downloadsize , one server have heavyweight<F9> work
+				--- operating system caches the response  , browser cache the response. it wont make another DNS query, until TTL expired  
+- cookie downsie
+
+- how is load balancer talk to server 
+	-- tcp /ip
+- what happend if typed in abc.com
+	-- DNS look up
+	
